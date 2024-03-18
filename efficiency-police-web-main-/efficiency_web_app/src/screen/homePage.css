@@ -1,0 +1,60 @@
+/* homePage.css */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  max-height: calc(100vh - (206px + 200px)); /* Set maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+.photo-container {
+  text-align: center; /* Center the photos */
+}
+
+.photo {
+  width: 80%;
+  height: auto;
+}
+
+.separator {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+.emergency-text {
+  color: red;
+  margin-bottom: 20px;
+ text-align: right;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container-item {
+  flex: 1;
+  text-align: center;
+}
+
+.container-item h2 {
+  margin-bottom: 10px;
+}
+
+.container-photo {
+  width: 80%;
+  height: auto;
+}
+.small {
+  width: 50px;
+  height: auto;
+  margin-top: 20px;
+}
+.small:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+
